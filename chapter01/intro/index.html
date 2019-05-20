@@ -1,0 +1,52 @@
+<!-- 190520 html study -->
+<!DOCTYPE html><!-- <!DOCTYPE> 선언 -->
+<!-- <html>, <head>, <body> 옵셔널 태그이다. 써도 되고 안써도 되는데 쓰는게 눈에 보기 쉽다. -->
+<html>
+	<head>
+		<title>My First Website</title> <!-- 페이지의 제목 태그 -->
+		<meta charset="utf-8"> <!-- 한국어를 인코딩 해주는 태그 한글이 깨지지 않음 -->	
+
+		<!-- <style> 여기에 css 코드 작성 </style> -->
+		<!-- 무조건 속성: 속상값; 이런식으로 표현 -->
+		<style>
+			h1{
+				font-size: 64px;
+				text-align: center;
+			}
+
+			h3{
+				margin-top: 100px;
+			}
+
+			p i {
+				font-size: 48px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<h1>My First Page</h1>
+		<h2>I <i>love</i> HTML!</h2>
+		<h3>안녕 세상!</h3>
+		<!-- 머리말 태그 가장 중요한 머리말 h1, 그 다음 h2, h6까지 작성 가능 -->
+
+		<img src="images/actor.jpg" height="300">
+
+		<p>Lorem ipsum <b>dolor</b> sit amet, consectetur adipiscing
+		elit, sed do eiusmod <i>tempor</i> incididunt ut labore et dolore
+		magna aliqua.</p>
+		<!-- 문단 태그 <p>태그 위, 아래에는 기본적으로 여백이 조금씩 있다. -->
+		<!-- <b></b> 태그(볼드체)는 텍스트를 굵게 쓰고 싶을 때, <i></i> 태그(이탤릭체)는 텍스트를 날려 쓰고 싶을 때! -->
+
+		<p>Hi <strong>everyone!</strong></p>
+		<!-- <strong></strong> 태그는 <b>태그와 같지만 텍스트가 중요하다고 표시하는 것이 목적이다. 텍스트가 중요하다고 표시하고 싶을 때는 <strong> 태그를 사용한다. -->
+
+		<p>Nice to <em>meet</em> you!</p>
+		<!-- <em>태그는 강조하는 것이 목적이다! <i>태그와 같이 날려서 쓰인다. -->
+
+		<a href="https://google.com" target="_blank">구글로 가는 링크</a>
+		<a href="folder1/page1.html">page 1</a>
+		<a href="folder1/folder2/page2.html">page 2</a>
+
+	</body>
+</html>

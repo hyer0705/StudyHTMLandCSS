@@ -1,0 +1,32 @@
+@font-face{
+	src: url("../fonts/BMJUA_ttf.ttf");	
+	font-family: "Bmjua";
+}
+
+p {
+	font-family: "Bmjua";
+	font-size: 50px;
+}
+/*#serif {
+	font-family: "Times New Roman", Times, serif;
+}
+
+#sans-serif {
+	font-family: "Arial", 굴림체, sans-serif;
+}
+
+#monospace {
+	font-family: "Courier", Courier New, monospace;
+}
+
+#cursive {
+	font-family: "Comic Sans MS", Monotype Coriva, cursive;
+}
+
+#fantasy {
+	font-family: "Impact", Haettenschweiler, fantasy;
+}
+
+#google {
+	font-family: 'Indie Flower', cursive;
+}*/

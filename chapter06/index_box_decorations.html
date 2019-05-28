@@ -1,0 +1,72 @@
+<!-- 190528 박스 데코레이션 -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Box Decoration</title>
+	<meta charset="utf-8">
+	<style>
+		.p1 {
+			width: 400px;
+			padding: 50px;
+			box-shadow: 50px -30px 50px -30px green;
+			/*box-shadow: 가로 세로 흐린정도 어느정도까지 그림자가 퍼지는 정도 그림자 색상*/
+		}
+
+		/* border-radius라는 속성을 사용하면 요소의 모서리를 둥글게 만들 수 있다.*/
+		.div1 {
+			border: 1px solid green;
+			border-radius: 5px;
+			margin-bottom: 20px;
+		}
+
+		.div2 {
+			border: 1px solid green;
+			border-radius: 30px;
+		}
+		/* border-radius 개별 설정 */
+		h1 {
+			border: 1px solid blue;
+			border-top-left-radius: 50px; /*왼쪽 위*/
+			border-top-right-radius: 5px; /*오른쪽 위*/
+			border-bottom-right-radius: 0px; /*오른쪽 아래*/
+			border-bottom-left-radius: 20px; /*왼쪽 아래*/
+		}
+
+		/*배경색*/
+		h2 {
+			background-color: #4d9fff;
+		}
+
+		/*페이지 배경색*/
+		/*
+		페이지 전체의 배경색을 설정하고 싶으면 body태그에 background-color 속성을 입혀주면 됩니다.
+		배경색을 투명하게 두고 싶으면 transparent 값으로 설정해주면 되는데, 따로 설정을 해주지 않으면 transparent가 기본값으로 설정됩니다!
+		*/
+		.color {
+			background-color: #4d9fff;
+		}
+		.hello {
+			background-color: white;
+		}
+		.back_color {
+			background-color: transparent;
+		}
+	</style>
+</head>
+<body>
+	<h1>Life is Beautiful</h1>
+	<p class="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, Suspendisse sagittis arcu quam. In non enim nec turpis efficitur pharetra ut sit amet ipsu. Sed scelerisque lacinla dui, id facilisis neque tempus non. Duis porttitor arcu quis neque maximus, vel feugiat risus blandit. Aenean nec urna dignissim, malesuada orcieu, posuere augue. Donec blandit leo feugiat orci congue egestas a sed arcu. Duis sagittis nunc vel eratblandit viverra. Duis porta at eros non gravida. Morbi tempor ut eros in vestibulum. Praesent blandlit lectus urna, ac interdum sapien aliquet non,  Nulla facilisi, Sed et risus ac mi sagittis pharetra nec ac lorem.</p>
+	<div class="div1">
+		This is div1
+	</div>
+	<div class="div2">
+		This is div2
+	</div>
+	<h1>Hello World!</h1>
+	<h2>배경색</h2>
+	<div class="color">
+		<h1 class="hello">Hello World!</h1>
+		<h2 class="back_color">Background Colors!</h2>
+	</div>
+</body>
+</html>

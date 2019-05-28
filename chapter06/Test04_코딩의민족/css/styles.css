@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  font-family: "Bmjua";
+}
+
+@font-face{
+	src: url("../fonts/BMJUA_ttf.ttf");	
+	font-family: "Bmjua";
+}
+
+body {
+	background-color: #F0E8D9;
+}
+
+h1 .text{
+	font-size: 64px;
+	margin-bottom: 15px;
+}
+h2 .text{
+	font-size: 32px;
+	margin-top: 15px;
+}
+
+.text {
+	color: #58595B;
+}
+
+.title {
+	margin: 75px 0px;
+	text-align: center;
+}
+
+.contain {
+	width: 300px;
+	height: 385px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	border-radius: 10px;
+	margin-bottom: 50px;
+}
+
+.info {
+	padding: 20px;
+}
+
+img {
+	width: 100%;
+	display: block;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+a {
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.link {
+	text-align: center;
+}
+
+.menu_title {
+	font-size: 32px;
+	text-align: center;
+	color: #58595B;
+	margin-bottom: 20px;
+}
+
+.menu_info {
+	font-size: 16px;
+	color: #58595B;
+	margin-bottom: 16px;
+}

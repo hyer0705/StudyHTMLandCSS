@@ -7,23 +7,54 @@
 	<style>
 		h1 {
 			border: 5px solid red;
-			width: 500px;
-			height: 300px;
 		}
 
 		.p1 {
-			border: 5px solid red;
-			margin-top: 100px;
-			margin-bottom: 100px;
+			border: 1px solid blue;
+			width: 300px;
+			height: 200px; /*내용물이 들어갈 공간이 부족한 경우가 있을 수 있음*/
+			overflow: auto;
+			/*
+			<overflow 옵션>
+			1. visible -> 사용하면 넘쳐나는 내용물이 그대로 보인다. 따로 설정해주지 않으면 visible이 기본값!
+
+			2. hidden -> 넘쳐나는 부분을 아예 숨겨줄 수 있음!
+			3. scroll -> 내용물을 숨겼다가, 사용자가 스크롤을 하면 볼 수 있게 해줌
+			4. auto -> scroll과 거의 같음. scroll 옵션은 항상 스크롤바를 보여주고, auto는 내용물이 넘쳐날 때만 스크롤바를 보여준다.
+			*/
+			/*
+			min-height: 500px; 최소 세로 길이가 500px임을 뜻함
+			max-height: 500px; 최대 세로 길이가 500px임을 뜻함
+			max-width: 500px; 최대 가로 길이가 500px임을 뜻함
+			min-width: 500px; 최소 가로 길이가 500px임을 뜻함
+			width: 500px;
+			height: 500px;
+			*/
+			/*
+			margin: 0 auto; 이 같은말!
+			margin-right: auto;
+			margin-left: auto;
+			*/
+			/*
+			margin: 50px 30px;
+			margin: 50px;
+			margin: 80px 30px 75px 50px;
+			margin-top: 80px;
+			margin-bottom: 75px;
 			margin-left: 50px;
+			margin-right: 30px; */
+			/*
+			padding: 50px 20px;
+			padding: 50px;
+			padding: 50px 65px 20px 80px;
+			padding-top: 50px;
+			padding-bottom: 20px;
+			padding-left: 80px;
+			padding-right: 65px; */
 		}
 
 		.p2 {
 			border: 5px solid red;
-			padding-top: 50px;
-			padding-bottom: 50px;
-			padding-right: 50px;
-			padding-left: 50px;
 		}
 	</style>
 </head>
@@ -33,3 +64,54 @@
 	<p class="p2">Ut ut tellus ac dui vulputate eleifend et et ante. Aliquam sodales, liqula at rhoncus ullamcorper, ex metus blandit dolor, ac scelerisque justo velit sit amet nunc. Vivamus augue erat, dignissim sit amet orci eu, vehicula pretium dui. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per lineptos himenaeos. Fusce auctor mauris non leo ornare condimentum. Pellentesque fermentum sapien ut mipellentesque congue. Cras feugiat neque quis nunc rutrum tristique. Ut rhoncus lacus quis quam euismod sollicitudin. Sed et tortor bibendum, porttitor urna non, tincidunt nunc. Aenean tincidunt eros ut odio sodales pharetra. Pellentesque gravida odio at ipsum suscipit auctor. Proin molestie nisl quis tellus consectetur, vitae luctus libero rhoncus. Nullam blandit, dolor efficitur tempor bibendum, odio nulla rhoncus ipsum, ac placerat purus justo eget orci.</p>
 </body>
 </html>
+
+<!--
+Padding과 Margin은 쉽게 헷갈릴 수 있는 개념입니다.
+요소는 내용(content), 패딩(padding), 테두리(border)로 이루어져 있습니다.
+Padding은 내용과 테두리 사이의 '여유 공간' 입니다.
+
+반면에 Margin은 요소 주위의 여백입니다. 즉, 테두리 밖의 공간인 셈이죠.
+
+<Padding 쓰는 방법>
+p {
+	paddding: 위 오른쪽 아래 왼쪽;
+}
+위 오른쪽 아래 왼쪽이 다 같은 경우 padding: 50px; 이런식으로 쓰면 된다!
+
+p {
+	padding: 50px 100px;
+}
+위, 아래가 같고 왼쪽, 오른쪽이 같은 경우! 쓰는 방법
+
+<Margin 쓰는 방법>
+요소에게 margin을 주는 방법은 padding을 주는 방법과 똑같다.
+p {
+	margin-top: 50px;
+	margin-bottom: 40px;
+	margin-left: 200px;
+	margin-right: 60px;
+}
+
+한 줄에 쓰는 법
+p {
+	margin: 위 오른쪽 아래 왼쪽;
+}
+
+위, 아래, 왼쪽, 오른쪽이 다 같은 경우
+p {
+	margin: 50px;
+}
+
+위, 아래가 같고 왼쪽, 오른쪽이 같은 경우
+p {
+	margin: 50px 70px;
+}
+
+<가운데 정렬>
+p {
+	border: 1px solid blue;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+-->

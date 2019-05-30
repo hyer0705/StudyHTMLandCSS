@@ -1,0 +1,44 @@
+* {
+	box-sizing: border-box;
+}
+
+.container_food {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 10px 0px;
+	background-color: #D4F4FA;
+}
+
+.title {
+	text-align: center;
+}
+
+h1 .text {
+	font-size: 64px;
+}
+
+.food {
+	width: 500px;
+	margin: 0 auto 20px auto;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.food .food_img {
+	width: 100%;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.food_info {
+	text-align: center;
+	padding: 10px;
+}
+
+.food_info h2 {
+	font-size: 32px;
+}
+
+.food_info p {
+	font-size: 20px;
+}

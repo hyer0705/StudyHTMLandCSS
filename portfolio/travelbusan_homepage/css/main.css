@@ -1,0 +1,26 @@
+/* 메인 화면 꾸미기 */
+
+* {
+	box-sizing: border-box;
+}
+
+.info {
+	display: block;
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.info .info_image {
+	width: 100%;
+	margin-bottom: 10px
+}
+
+.explain {
+	width: 1000px;
+	margin: 30px auto;
+}
+
+.explain p {
+	text-align: center;
+	font-size: 18px;
+}
